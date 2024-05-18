@@ -1,0 +1,45 @@
+.btn {
+  border: none;
+  padding: 6px 16px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: white;
+  background: #008000;
+  border-radius: 50px;
+  transition: 0.3s all ease-out;
+  cursor: pointer;
+  margin-bottom: 89px;
+  margin-right: 5px;
+}
+
+.btn:hover {
+  color: white;
+  background: black;
+}
+
+/* Media query to hide the button when viewport width is 1191px or less */
+@media only screen and (max-width: 1191px) {
+  .btn {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1370px) and (max-width: 1605px) {
+  .btn {
+    position: absolute;
+    left: 90%;
+    margin-top: 94px;
+    width: 110px;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 40px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .btn {
+    display: none;
+  }
+}

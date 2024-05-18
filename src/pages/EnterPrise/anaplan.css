@@ -1,0 +1,1429 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .Fpaflex-item{
+    flex:0;
+    margin-top: 450px;
+    padding-top: 30px;
+    align-items: center;
+  }
+  .flex-item1 {
+    margin-top: 250px;
+    padding-top: 30px;
+    align-items: center;
+  }
+.imganaplan{
+    width:800px;
+    height: 650px;
+    border-radius: 50px;
+}
+  .annaplanh5{
+    margin-top: 80px;
+    padding-bottom: 20px;
+    font-family: 'loto';
+    font-weight: bold;
+    color:gray;
+    font-size: 25px;
+  }
+  .advantages{
+    margin-top: 160px;
+  }
+  .h2advantages{
+    margin-top: 100px;
+    padding-top: 20px;
+    font-family: 'loto';
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .h2advantages span{
+    color:#008000;
+  }
+.advantagesBoxes{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: #fafafa;
+    padding:50px
+}
+.advantagesBox{
+    width: calc(20% - 20px); 
+     margin: 10px;
+    padding: 50px;
+    background-color: #fff; 
+    box-shadow: 0 0 10px #2b2a2a;
+    border-radius: 8px; 
+    text-align: center;
+}
+.advantagesBox h4{
+    padding: 10px;
+    font-weight:bold
+}
+.advantagesBox p{
+    font-size: 20px;
+    font-family: 'loto';
+}
+.implementation{
+        margin-top: 160px;
+}
+.solutions{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap:70px
+}
+.solution{
+    width: calc(25% - 20px); 
+    margin: 10px;
+   padding: 50px;
+   text-align: left;
+   font-family: 'loto';
+    letter-spacing: 2px;
+}
+.solution img{
+    box-shadow: 0 0 20px #2b2a2a;
+}
+.solution .solutionimg{
+  margin-top: 20px;
+}
+
+
+.image-container.animate {
+  animation: fadeInUp 1s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.solution h4{
+    color:black;
+    font-weight: 600;
+    font-family: 'loto';
+}
+.solution h5{
+    font-family: 'loto';
+    font-weight: 500;
+    color:black
+}
+.solution span{
+    color: #008000;
+    font-size: 22px;
+    font-weight: bold;
+}
+.h2implementation{
+        margin-top: 10px;
+        padding-top: 20px;
+        font-family: 'loto';
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+}
+
+.Platforms{
+    margin-top: 160px;
+    /* background-color: red; */
+ }
+
+.platformFeatures{
+    margin-top: 100px;
+    padding-top: 20px;
+    font-family: 'loto';
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+.platformP{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.feature-group{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding:50px;
+    background-color:#fafafa
+}
+
+.platform{
+    width: calc(20% - 20px); 
+    margin: 60px;
+   padding: 50px;
+   background-color: #fff; 
+   box-shadow: 0 0 10px #2b2a2a;
+   border-radius: 8px; 
+   text-align: center;
+   font-family: 'loto';
+}
+.platform h4{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.platform p {
+  font-size: 20px;
+  font-family: 'loto';
+}
+.featureGroup{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: #fafafa;
+}
+.engageInfo{
+    text-align: center;
+    margin-top: 60px;
+    font-family: 'loto';
+    font-size: 20px;
+}
+.engageInfo p{
+    margin-top: 20px;
+    padding-top: 10px;
+    font-family: 'loto';
+    color:gray;
+}
+.engageInfo h4{
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px){
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: auto;
+     margin-left: auto;
+
+}
+.saph5 {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    font-size: 20px;
+}
+
+
+.flex-item {
+    flex: 0;
+    margin-top: 20px; 
+    padding-top: 20px;
+    align-items: center;
+    text-align: center;
+    width: auto;
+}
+.flex-item h5{
+  font-size: 20px;
+  width:auto
+}
+.flex-item img {
+    width: 300px; 
+}
+.flex-item1 img {
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: -250px;
+    margin-right: auto; 
+    width: 400px;
+}
+
+.imganaplan {
+    width: 400px; 
+    height: 300px; /* Adjust image height as needed */
+    border-radius: 50px;
+}
+.h2advantages{
+  width:550px;
+}
+.advantages h2{
+  width:auto;
+  font-size: 25px;
+}
+.advantagesBoxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  width:auto;
+  margin-left: 40px;
+  margin-right: auto;
+}
+
+.advantagesBox {
+  width: auto; /* Adjust width as needed */
+  height: auto; /* Adjust height as needed */
+  background-color: #f0f0f0; /* Background color of the square */
+  border-radius: 10px; /* Adjust border radius as needed */
+  padding: 10px; /* Adjust padding as needed */
+  text-align: center;
+}
+
+.advantagesBox img {
+  width: auto; 
+  height: 60px;  
+  margin-bottom: 10px;  
+}
+
+.advantagesBox h4 {
+  font-size: 14px;    
+  margin-bottom: 5px;   
+}
+
+.advantagesBox p {
+  font-size: 12px; /* Adjust font size as needed */
+  line-height: 1.2; /* Adjust line height as needed */
+}
+
+.implementation {
+    margin-top: 40px; /* Adjust margin-top as needed */
+    width: auto;
+}
+
+.h2implementation {
+    font-size: 25px; /* Adjust font size as needed */
+}
+
+.solutions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    width: auto;
+}
+.solutions img{
+  width:450px;
+  margin-left:auto;
+  margin-right: auto;
+}
+
+.solution {
+    width: auto;    
+}
+
+.solution h5 {
+    font-size: 14px; /* Adjust font size as needed */
+}
+
+.solution span {
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+.solutions img {
+    width: 350px; 
+    margin-top: 45px; 
+}
+.Platforms{
+  width: 100%;
+  margin-left: auto;
+}
+.feature-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.featureGroup {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+
+.platform {
+  width: auto; /* Adjust width as needed */
+  max-width: 100%; /* Adjust max-width as needed */
+  background-color: #f0f0f0; /* Background color of the platform box */
+  border-radius: 10px; /* Adjust border radius as needed */
+  padding: 20px; /* Adjust padding as needed */
+  margin-bottom: 20px; /* Adjust margin as needed */
+  text-align: center;
+ 
+}
+
+.platform h4 {
+  font-size: 16px; /* Adjust font size as needed */
+  margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.platform p {
+  font-size: 14px; /* Adjust font size as needed */
+  line-height: 1.5; /* Adjust line height as needed */
+}
+
+.engageInfo p{
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+}
+/* For screen width between 480px to 599px */
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .flex-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: auto;
+      max-width: fit-content;
+  }
+  
+  .saph5 {
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .flex-item {
+      flex: 0;
+      margin-top: 50px; /* Adjust margin-top as needed */
+      padding-top: 20px;
+      align-items: center;
+      text-align: center;
+      width: auto;
+  }
+  
+  .flex-item img {
+      width: 300px; /* Adjust image width as needed */
+  }
+  
+  .flex-item1 img {
+      align-items: center;
+      text-align: center;
+      margin-left: 10px;
+      margin-right: auto; 
+      width: 450px; /* Adjust image width as needed */
+  }
+  
+  .imganaplan {
+      width: 400px; /* Adjust image width as needed */
+      height: 300px; /* Adjust image height as needed */
+      border-radius: 50px;
+  }
+  
+  .advantagesBoxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.advantagesBox {
+    width: auto; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+    background-color: #f0f0f0; /* Background color of the square */
+    border-radius: 10px; /* Adjust border radius as needed */
+    padding: 10px; /* Adjust padding as needed */
+    text-align: center;
+}
+
+.advantagesBox img {
+    width: auto; 
+    height: 60px;  
+    margin-bottom: 10px;  
+}
+
+.advantagesBox h4 {
+    font-size: 14px;    
+    margin-bottom: 5px;   
+}
+
+.advantagesBox p {
+    font-size: 12px; /* Adjust font size as needed */
+    line-height: 1.2; /* Adjust line height as needed */
+}
+  
+  .implementation {
+      margin-top: 40px; /* Adjust margin-top as needed */
+      width: auto;
+  }
+  
+  .h2implementation {
+      font-size: 25px; /* Adjust font size as needed */
+  }
+  
+  .solutions {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+      width: auto;
+  }
+  .solutions img{
+    width:550px;
+  }
+  
+  .solution {
+      width: auto;    
+  }
+  
+  .solution h5 {
+      font-size: 14px; /* Adjust font size as needed */
+  }
+  
+  .solution span {
+      font-size: 16px; /* Adjust font size as needed */
+  }
+  
+  .solution img {
+      width: 350px; /* Adjust image width as needed */
+      margin-top: 45px; /* Adjust margin-top as needed */
+  }
+  
+  .feature-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.featureGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.platform {
+    width: calc(100% - 40px); /* Adjust width as needed */
+    max-width: 300px; /* Adjust max-width as needed */
+    background-color: #f0f0f0; /* Background color of the platform box */
+    border-radius: 10px; /* Adjust border radius as needed */
+    padding: 20px; /* Adjust padding as needed */
+    margin-bottom: 20px; /* Adjust margin as needed */
+    text-align: center;
+}
+
+.platform h4 {
+    font-size: 16px; /* Adjust font size as needed */
+    margin-bottom: 10px; /* Adjust margin as needed */
+}
+
+.platform p {
+    font-size: 14px; /* Adjust font size as needed */
+    line-height: 1.5; /* Adjust line height as needed */
+}
+}
+
+@media only screen and (min-width: 600px)
+  and (max-width: 767px){
+
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: auto;
+      max-width: fit-content;
+    }
+    .saph5 {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .flex-item {
+      flex: 0;
+      margin-top: 90px; 
+      padding-top: 30px;
+      align-items: center;
+      text-align: center;
+      width: auto;
+       
+      }
+    
+    .flex-item img{
+      width: 500px;
+    }
+    .flex-item1 img{
+      align-items: center;
+      text-align: center;
+      margin-left: 10px;
+      margin-right: auto; 
+      width:650px
+    }
+    
+    .imganaplan {
+      width: 600px; 
+      height: 450px; 
+      border-radius: 50px;
+    }
+    .advantagesBoxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px; /* Adjust the gap between boxes */
+  }
+  
+  .advantagesBox {
+      width: calc(50% - 20px); /* Adjust width as needed */
+      max-width: 300px; /* Adjust max-width as needed */
+      background-color: #f0f0f0; /* Background color of the box */
+      border-radius: 10px; /* Adjust border radius as needed */
+      padding: 20px; /* Adjust padding as needed */
+      text-align: center;
+  }
+  
+  .advantagesBox img {
+      width: 100px; /* Adjust image width as needed */
+      height: auto; /* Maintain aspect ratio */
+  }
+  
+  .advantagesBox h4 {
+      font-size: 16px; /* Adjust font size as needed */
+      margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  .advantagesBox p {
+      font-size: 14px; /* Adjust font size as needed */
+      line-height: 1.5; /* Adjust line height as needed */
+  }
+  .implementation{
+    margin-top: 50px;
+    width: auto;
+  }
+    .h2implementation{
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .solutions{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap:0;
+      width:auto;
+
+    }
+    .solution{
+      width: auto;    
+      
+  }
+    .solution  h5{
+      font-size:16px;
+    }
+    .solution span{
+      font-size: 18px;
+    }
+    
+  .solution img{
+    width:500px;
+    margin-top: 55px;
+  }
+
+ .platformP{
+  width:auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .platformFeatures{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+    .feature-group{
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      padding:50px;
+      background-color:#fafafa
+  }
+  
+  .platform{
+      width:auto; 
+      height:auto
+  }
+  .platform h4{
+    font-size: 25px;
+  }
+  .platform p {
+    font-size: 18px;
+    padding-top:10px
+  }
+  }
+@media only screen and (min-width: 768px)
+  and (max-width: 899px) {
+        
+
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: auto;
+      max-width: fit-content;
+    }
+    .saph5 {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .flex-item {
+      flex: 0;
+      margin-top: 90px; 
+      padding-top: 30px;
+      align-items: center;
+      text-align: center;
+      width: auto;
+       
+      }
+    
+    .flex-item img{
+      width: 700px;
+    }
+    .flex-item1 {
+      margin-top: 0; 
+      padding-top: 30px;
+      align-items: center;
+      text-align: center; 
+    }
+    
+    .imganaplan {
+      width: 600px; 
+      height: 450px; 
+      border-radius: 50px;
+    }
+    .advantagesBoxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px; /* Adjust the gap between boxes */
+  }
+  
+  .advantagesBox {
+      width: calc(50% - 20px); /* Adjust width as needed */
+      max-width: 300px; /* Adjust max-width as needed */
+      background-color: #f0f0f0; /* Background color of the box */
+      border-radius: 10px; /* Adjust border radius as needed */
+      padding: 20px; /* Adjust padding as needed */
+      text-align: center;
+  }
+  
+  .advantagesBox img {
+      width: 100px; /* Adjust image width as needed */
+      height: auto; /* Maintain aspect ratio */
+  }
+  
+  .advantagesBox h4 {
+      font-size: 16px; /* Adjust font size as needed */
+      margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  .advantagesBox p {
+      font-size: 14px; /* Adjust font size as needed */
+      line-height: 1.5; /* Adjust line height as needed */
+  }
+  .implementation{
+    margin-top: 50px;
+    width: auto;
+  }
+    .h2implementation{
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .solutions{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap:0;
+      width:auto;
+
+    }
+    .solution{
+      width: auto;    
+      
+  }
+    .solution  h5{
+      font-size:16px;
+    }
+    .solution span{
+      font-size: 18px;
+    }
+    
+  .solution img{
+    width:500px;
+    margin-top: 55px;
+  }
+
+ .platformP{
+  width:auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .platformFeatures{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+
+}
+  .platformP{
+    font-size: 18px;
+    font-family: 'loto';
+    width:auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+    .feature-group{
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      padding:50px;
+      background-color:#fafafa
+  }
+  
+  .platform{
+      width: calc(30% - 10px); 
+      height:auto
+  }
+  .platform h4{
+    font-size: 25px;
+  }
+  .platform p {
+    font-size: 18px;
+    padding-top:10px
+  }
+  }
+@media only screen and (min-width: 900px)
+  and (max-width: 1024px) {
+      
+
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: auto;
+    }
+    .saph5 {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .flex-item {
+      flex: 0;
+      margin-top: 90px; 
+      padding-top: 30px;
+      align-items: center;
+      text-align: center;
+      width: auto;
+       
+      }
+    
+    .flex-item img{
+      width:auto;
+    }
+    .flex-item1 {
+      margin-top: 0; 
+      padding-top: 30px;
+      align-items: center;
+      text-align: center; 
+    }
+    
+    .imganaplan {
+      width: 600px; 
+      height: 450px; 
+      border-radius: 50px;
+    }
+    .advantagesBoxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px; /* Adjust the gap between boxes */
+  }
+  
+  .advantagesBox {
+      width: calc(50% - 20px); /* Adjust width as needed */
+      max-width: 300px; /* Adjust max-width as needed */
+      background-color: #f0f0f0; /* Background color of the box */
+      border-radius: 10px; /* Adjust border radius as needed */
+      padding: 20px; /* Adjust padding as needed */
+      text-align: center;
+  }
+  
+  .advantagesBox img {
+      width: 100px; /* Adjust image width as needed */
+      height: auto; /* Maintain aspect ratio */
+  }
+  
+  .advantagesBox h4 {
+      font-size: 16px; /* Adjust font size as needed */
+      margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  .advantagesBox p {
+      font-size: 14px; /* Adjust font size as needed */
+      line-height: 1.5; /* Adjust line height as needed */
+  }
+  .implementation{
+    margin-top: 50px;
+    width: auto;
+  }
+    .h2implementation{
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .solutions{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap:0;
+      width:auto;
+
+    }
+    .solution{
+      width: auto;    
+      
+  }
+    .solution  h5{
+      font-size:16px;
+    }
+    .solution span{
+      font-size: 18px;
+    }
+    
+  .solution img{
+    width:500px;
+    margin-top: 55px;
+  }
+
+ .platformP{
+  width:auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .platformFeatures{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+
+}
+  .platformP{
+    font-size: 18px;
+    font-family: 'loto';
+    width:auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+    .feature-group{
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      padding:50px;
+      background-color:#fafafa
+  }
+  
+  .platform{
+      width: calc(30% - 10px); 
+      height:auto
+  }
+  .platform h4{
+    font-size: 25px;
+  }
+  .platform p {
+    font-size: 18px;
+    padding-top:10px
+  }
+  }
+@media only screen and (min-width: 1024px)
+  and (max-width: 1199px) {
+    
+
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      width: auto;
+    }
+    .saph5 {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .flex-item {
+      flex: 0;
+      margin-top: 90px; 
+      padding-top: 30px;
+      align-items: center;
+      text-align: center;
+      width: auto;
+       
+      }
+    
+    .flex-item img{
+      width:auto;
+    }
+    .flex-item1 {
+      margin-top: 0; 
+      padding-top: 30px;
+      align-items: center;
+      text-align: center; 
+    }
+    
+    .imganaplan {
+      width: 600px; 
+      height: 450px; 
+      border-radius: 50px;
+    }
+    .advantagesBoxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px; /* Adjust the gap between boxes */
+  }
+  
+  .advantagesBox {
+      width: calc(50% - 20px); /* Adjust width as needed */
+      max-width: 300px; /* Adjust max-width as needed */
+      background-color: #f0f0f0; /* Background color of the box */
+      border-radius: 10px; /* Adjust border radius as needed */
+      padding: 20px; /* Adjust padding as needed */
+      text-align: center;
+  }
+  
+  .advantagesBox img {
+      width: 100px; /* Adjust image width as needed */
+      height: auto; /* Maintain aspect ratio */
+  }
+  
+  .advantagesBox h4 {
+      font-size: 16px; /* Adjust font size as needed */
+      margin-bottom: 10px; /* Adjust margin as needed */
+  }
+  
+  .advantagesBox p {
+      font-size: 14px; /* Adjust font size as needed */
+      line-height: 1.5; /* Adjust line height as needed */
+  }
+  .implementation{
+    margin-top: 50px;
+    width: auto;
+  }
+    .h2implementation{
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .solutions{
+      display: flex;
+      justify-content: space-around;
+      gap:0;
+      width:auto;
+
+    }
+    .solution{
+      width: calc(35% - 20px);    
+      max-width: auto; 
+  }
+    .solution  h5{
+      font-size:16px;
+    }
+    .solution span{
+      font-size: 18px;
+    }
+    
+  .solution img{
+    width:500px;
+    margin-top: 55px;
+  }
+  .solutions img{
+    width: 400px;
+    margin-right: 50px;
+    }
+
+ .platformP{
+  width:auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .platformFeatures{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+
+}
+  .platformP{
+    font-size: 18px;
+    font-family: 'loto';
+    width:auto;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+    .feature-group{
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      padding:50px;
+      background-color:#fafafa
+  }
+  
+  .platform{
+      width: calc(30% - 10px); 
+      height:auto
+  }
+  .platform h4{
+    font-size: 25px;
+  }
+  .platform p {
+    font-size: 18px;
+    padding-top:10px
+  }
+  }
+
+@media only screen and (min-width: 1200px)
+  and (max-width: 1369px) {
+    
+
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    
+    .flex-item {
+      flex: 0;
+      margin-top: 90px; 
+      padding-top: 30px;
+      align-items: center;
+      text-align: center; 
+      }
+    
+    .flex-item img{
+      width:400px;
+    }
+    .flex-item1 {
+      margin-top: 0; 
+      padding-top: 30px;
+      align-items: center;
+      text-align: center; 
+    }
+    
+    .imganaplan {
+      width: 600px; 
+      height: 450px; 
+      border-radius: 50px;
+    }
+    .h2advantages{
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    .advantagesBox{
+      width: auto; 
+    }
+    .advantagesBox p{
+      font-size: 18px;
+      font-family: 'loto';
+  }
+  .implementation{
+    margin-top: 50px;
+    width: auto;
+  }
+    .h2implementation{
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .solutions{
+      display: flex;
+      justify-content: space-around;
+      gap:0;
+      width:auto;
+
+    }
+    .solution{
+      width: calc(35% - 20px);    
+      max-width: auto; 
+  }
+    .solution  h5{
+      font-size:16px;
+    }
+    .solution span{
+      font-size: 18px;
+    }
+    
+  .solution img{
+    width:500px;
+    margin-top: 55px;
+  }
+
+ .platformP{
+  width:auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .platformFeatures{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+  .platformP{
+    font-size: 18px;
+    font-family: 'loto';
+    width: 1250px;
+    }
+
+    .feature-group{
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      padding:50px;
+      background-color:#fafafa
+  }
+  
+  .platform{
+      width: calc(30% - 10px); 
+      height:auto
+  }
+  .platform h4{
+    font-size: 25px;
+  }
+  .platform p {
+    font-size: 18px;
+    padding-top:10px
+  }
+
+  }
+  @media only screen and (min-width: 1370px)
+  and (max-width: 1605px) {
+
+
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+    
+    .flex-item {
+      flex: 0;
+      margin-top: 90px; 
+      padding-top: 30px;
+      align-items: center;
+      text-align: center; 
+      }
+    
+    .flex-item img{
+      width:400px;
+    }
+    .flex-item1 {
+      margin-top: 0; 
+      padding-top: 30px;
+      align-items: center;
+      text-align: center; 
+    }
+    
+    .imganaplan {
+      width: 600px; 
+      height: 450px; 
+      border-radius: 50px;
+    }
+    .h2advantages{
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+    }
+  
+    .advantagesBox{
+      width: 300px; 
+    }
+    .advantagesBox p{
+      font-size: 18px;
+      font-family: 'loto';
+  }
+  .implementation{
+    margin-top: 50px;
+  }
+    .h2implementation{
+      font-size: 30px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .solutions{
+      display: flex;
+      justify-content: space-around;
+      gap:0;
+
+    }
+    .solution{
+      width: calc(35% - 20px);     
+  }
+    .solution  h5{
+      font-size:16px;
+    }
+    .solution span{
+      font-size: 18px;
+    }
+    
+  .solution img{
+    width:500px;
+    margin-top: 55px;
+  }
+
+ .platformP{
+  width:1400px;
+  text-align: center;
+  margin-left: 60px;
+ }
+
+ .platformFeatures{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+  .platformP{
+    font-size: 18px;
+    font-family: 'loto';
+    width: 1250px;
+    }
+
+    .feature-group{
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+      padding:50px;
+      background-color:#fafafa
+  }
+  
+  .platform{
+      width: calc(30% - 10px); 
+      height:auto
+  }
+  .platform h4{
+    font-size: 25px;
+  }
+  .platform p {
+    font-size: 18px;
+    padding-top:10px
+  }
+}
+
+/* @media only screen and (min-width: 1650px){
+  
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .flex-item {
+    flex: 0;
+    margin-top: 90px; 
+    padding-top: 30px;
+    align-items: center;
+    text-align: center; 
+    }
+  
+  .flex-item img{
+    width:400px;
+  }
+  .flex-item1 {
+    margin-top: 0; 
+    padding-top: 30px;
+    align-items: center;
+    text-align: center; 
+  }
+  
+  .imganaplan {
+    width: 600px; 
+    height: 450px; 
+    border-radius: 50px;
+  }
+  .h2advantages{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .advantagesBox{
+    width: 300px; 
+  }
+  .advantagesBox p{
+    font-size: 18px;
+    font-family: 'loto';
+}
+.implementation{
+  margin-top: 50px;
+}
+  .h2implementation{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .solutions{
+    display: flex;
+    justify-content: space-around;
+    gap:0;
+
+  }
+  .solution{
+    width: calc(35% - 20px);     
+}
+  .solution  h5{
+    font-size:16px;
+  }
+  .solution span{
+    font-size: 18px;
+  }
+  
+.solution img{
+  width:500px;
+  margin-top: 55px;
+}
+
+.platformP{
+width:1400px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+font-size: 18px;
+font-family: 'loto';
+}
+
+.platformFeatures{
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+}
+  .feature-group{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding:50px;
+    background-color:#fafafa
+}
+
+.platform{
+    width: calc(30% - 10px); 
+    height:auto
+}
+.platform h4{
+  font-size: 25px;
+}
+} */

@@ -1,0 +1,242 @@
+@import url( 'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url( 'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+body p {
+    font-family: 'Teachers', sans-serif;
+}
+
+.wrapper {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+
+}
+
+.into-Enterprise {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 190px;
+}
+.About-icon {
+    font-size: 30px;
+    color: #008000;
+}
+.customContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+    padding: 20px;
+
+}
+.mission,
+.values,
+.vision {
+    margin: 10px;
+    padding: 20px;
+    width: 450px;
+    box-shadow: 0 0 10px #2b2a2a;
+    border-radius: 8px;
+
+}
+.iconWrapper {
+    margin-bottom: 15px;
+}
+.textWrapper h2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.textWrapper p {
+    font-size: 16px;
+    color: gray;
+}
+.about-heading-container {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* .about-heading h2 {
+    font-size: 65px;
+    font-weight: bold;
+    color: black;
+} */
+
+.about-slogan {
+    font-size: 45px;
+    color: black;
+    font-weight: bold;
+    padding-top: 90px;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: -260px;
+}
+.about-item {
+    display: flex;
+}
+
+.about-info {
+    display: flex;
+    align-items: center;
+}
+.left-content h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.right-content p {
+    padding-left: 30px;
+    margin-bottom: 90px;
+}
+.left-content,
+.right-content {
+    flex: 1;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+.left-content img,
+.right-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.connect {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.connect p {
+    margin-left: 10px;
+}
+
+.experience {
+    margin-top: 20px;
+}
+
+.experience h6 {
+    margin-bottom: 10px;
+}
+
+.experience p {
+    margin-bottom: 5px;
+}
+@keyframes fadeZoomInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px) scale(0.5);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+.right-content h3 {
+    border-bottom: 2px solid #008000;
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: gray;
+}
+.right-content {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.2s ease, transform 0.5s ease;
+}
+
+.right-content.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.exp {
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 5px;
+}
+
+.edu {
+    background-color: rgb(248, 248, 248);
+    margin-bottom: 5px;
+}
+
+.started {
+    background-color: rgb(238, 238, 238);
+    margin-bottom: 25px;
+}
+
+.left-content {
+    animation: fadeZoomInUp 1s ease both;
+}
+@media (max-width: 768px) {
+    .into-Enterprise {
+        flex-direction: column;
+    }
+
+    .mission,
+    .values,
+    .vision {
+        min-width: 100%;
+    }
+}
+
+/* Laptop responsive  */
+@media only screen and (min-width: 1370px) and (max-width: 1605px) {
+    /* .about-container{
+      position: relative;
+      margin-top: 950px;
+      transform: translate(-50%, -50%);
+      text-align: center;    
+    }
+    .mission, .vision, .values {
+      width: calc(25% - 20px); 
+      margin-top: 60px;
+      padding: 20px;
+      background-color: #fff; 
+      box-shadow: 0 0 10px #2b2a2a;
+      border-radius: 8px; 
+      align-items: center;
+      height:230px;
+      }
+    
+    .into-Enterprise {
+      width:1350px;
+      margin-top: 150px;
+      text-align: center;  
+      display: flex;
+      justify-content: space-around;     
+    }
+
+    .about-heading-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    } */
+
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+    }

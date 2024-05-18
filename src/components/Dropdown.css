@@ -1,0 +1,38 @@
+.accounting-submenu {
+  width: auto;
+  position: absolute;
+  top: 90px;
+  list-style: none;
+  text-align: start;
+}
+
+.accounting-submenu li {
+  background: #fff;
+  cursor: pointer;
+}
+.accounting-submenu li a {
+  background:white;
+  cursor: pointer;
+} 
+
+.accounting-submenu li a:hover {
+  background: #008000;
+}
+
+.accounting-submenu.clicked {
+  display: none;
+}
+
+.submenu-item {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+}
+@media only screen and (max-width: 890px) {
+  .accounting-submenu {
+    margin-top: 90px;
+  }
+}

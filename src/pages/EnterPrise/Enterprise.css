@@ -1,0 +1,1174 @@
+/* Enterprise.css */
+
+/* Style for the hero section */
+.HeaderTitle {
+  font-size: 40px;
+  font-weight: 700;
+  width: auto;
+  text-align: center;
+  color: black;
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.card-block {
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  gap: 40px;
+  margin-top: 300px;
+  max-width: 1200px; 
+  background-color: whitesmoke;
+  margin-bottom: 60px;
+  padding: 80px; 
+  border-radius: 50px;
+  margin-left: 30px;
+}
+
+.item-row {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap */
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.item {
+  flex: 1; /* Take up equal space */
+  max-width: calc(25% - 20px); /* Adjust max width for responsiveness */
+  box-shadow: 0 0 10px #2b2a2a;
+  text-align: center;
+  color: black;
+  transition: all 0.3s;
+
+}
+
+
+.item-text {
+  padding: 25px;
+}
+
+
+.learn {
+    background-color: #008000;
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .learn span {
+    margin-right: 10px; /* Add margin-right to create space between text and icon */
+  }
+  .learn:hover{
+    background-color: white;
+    border: 1px solid #008000;
+    color:black;
+  }
+  
+  .arrow-icon {
+    font-size: 24px; /* Adjust the size as needed */
+    position: absolute;
+    top: 50%;
+    right:5px;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+}
+  
+  .learn:hover .arrow-icon {
+    transform: translateY(-50%) rotate(-45deg);
+  }
+  .intoEnterprise {
+    height: 550px;
+    width: 1900px;
+    margin: 0 auto;
+    margin-top: 950px;
+    background-color: rgb(246, 241, 236);
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px
+  }
+  
+  .titleWrapper,
+  .accDescription {
+    width: 45%; 
+  }
+  
+  .accountingtitle {
+    color: black;
+    text-align: left;
+  }
+  
+  .accDescription {
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+   padding-top: 40px;
+  }
+  .custom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    padding: 20px;
+  }
+  
+  .custom-row {
+    display: flex; /* Change to flex */
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+    margin-left:250px;
+  }
+  
+  .custom-column {
+    text-align: left;
+    padding: 10px 10px;
+    margin: 20px;
+    width:600px
+  }
+  .item:hover{
+    transform: translateY(-10px);
+    background-position: center 100%;
+    background-size: 105%;
+}
+
+@media only screen and (max-width: 319px) {
+  .HeaderTitle {
+    margin-top: -60px;
+  }
+
+  .card-block {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 40px;
+    margin-top: 300px;
+    max-width: auto; 
+    width: auto;
+    background-color: whitesmoke;
+    margin-bottom: 60px;
+    padding: 80px; 
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .item-row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+
+  .item {
+      flex-basis: calc(100% - 40px); 
+      max-width: calc(100% - 40px); 
+  }
+ 
+
+  .intoEnterprise {
+    width: auto;
+    height: auto;
+    margin-top: 3000px;
+    background-color: rgb(246, 241, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intoEnterprise p {
+    text-align: center;
+    
+  }
+
+  .titleWrapper,
+  .accDescription {
+    width: 80%;
+  }
+
+
+  .custom-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    margin-top: 100px;
+    padding: 20px;
+    width: auto;
+    max-width: auto;
+    margin-left: auto;
+     margin-right: auto;
+
+  }
+  
+  .custom-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto; 
+    margin-left: auto;
+    
+  }
+  .HeaderTitle {
+    margin-top: -60px;
+  }
+
+  .card-block {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 40px;
+    margin-top: 300px;
+    max-width: auto; 
+    width: auto;
+    background-color: whitesmoke;
+    margin-bottom: 60px;
+    padding: 80px; 
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .item-row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+
+  .item {
+      flex-basis: calc(100% - 40px); 
+      max-width: calc(100% - 40px); 
+  }
+ 
+
+  .intoEnterprise {
+    width: auto;
+    height: auto;
+    margin-top: 1800px;
+    background-color: rgb(246, 241, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intoEnterprise p {
+    text-align: center;
+    
+  }
+
+  .titleWrapper,
+  .accDescription {
+    width: 80%;
+  }
+
+
+  .custom-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    margin-top: 100px;
+    padding: 20px;
+    width: auto;
+    max-width: auto;
+   margin-left: auto;
+   margin-right: auto;
+
+  }
+  
+  .custom-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto; 
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .custom-column img{
+    width:390px
+  }
+  
+  .custom-column {
+    text-align: center;
+    padding: 10px auto;
+    margin: 20px;
+    max-width: auto; 
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .HeaderTitle {
+    margin-top: -60px;
+  }
+
+  .card-block {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 40px;
+    margin-top: 300px;
+    max-width: auto; 
+    width: auto;
+    background-color: whitesmoke;
+    margin-bottom: 60px;
+    padding: 80px; 
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .item-row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+
+  .item {
+    flex-basis: calc(100% - 40px); 
+    max-width: calc(100% - 40px); 
+  }
+
+  .intoEnterprise {
+    width: auto;
+    height: auto;
+    margin-top: 1800px; /* Adjusted margin-top */
+    background-color: rgb(246, 241, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intoEnterprise p {
+    text-align: center;
+  }
+
+  .titleWrapper,
+  .accDescription {
+    width: 80%;
+  }
+
+  .custom-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    margin-top: 100px;
+    padding: 20px;
+    width: auto;
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .custom-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto; 
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .custom-column img {
+    width: 390px;
+  }
+
+  .custom-column {
+    text-align: center;
+    padding: 10px auto;
+    margin: 20px;
+    max-width: auto; 
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+  
+@media only screen  and (min-width: 480px)and (max-width: 600px) {
+  .HeaderTitle {
+    margin-top: -60px;
+  }
+
+  .card-block {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 40px;
+    margin-top: 300px;
+    max-width: auto; 
+    width: auto;
+    background-color: whitesmoke;
+    margin-bottom: 60px;
+    padding: 80px; 
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .item-row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+
+  .item {
+      flex-basis: calc(100% - 40px); 
+      max-width: calc(100% - 40px); 
+  }
+ 
+
+  .intoEnterprise {
+    width: auto;
+    height: auto;
+    margin-top: 1800px;
+    background-color: rgb(246, 241, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intoEnterprise p {
+    text-align: center;
+    
+  }
+
+  .titleWrapper,
+  .accDescription {
+    width: 80%;
+  }
+
+
+  .custom-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    margin-top: 100px;
+    padding: 20px;
+    width: auto;
+    max-width: auto;
+    margin-left: auto;
+     margin-right: auto;
+
+  }
+  
+  .custom-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto; 
+    margin-left: auto;
+    
+  }
+  .HeaderTitle {
+    margin-top: -60px;
+  }
+
+  .card-block {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 40px;
+    margin-top: 300px;
+    max-width: auto; 
+    width: auto;
+    background-color: whitesmoke;
+    margin-bottom: 60px;
+    padding: 80px; 
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .item-row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+
+  .item {
+      flex-basis: calc(100% - 40px); 
+      max-width: calc(100% - 40px); 
+  }
+ 
+
+  .intoEnterprise {
+    width: auto;
+    height: auto;
+    margin-top: 1800px;
+    background-color: rgb(246, 241, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px; 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .intoEnterprise p {
+    text-align: center;
+    
+  }
+
+  .titleWrapper,
+  .accDescription {
+    width: 80%;
+  }
+
+
+  .custom-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    margin-top: 100px;
+    padding: 20px;
+    width: auto;
+    max-width: auto;
+   margin-left: auto;
+   margin-right: auto;
+
+  }
+  
+  .custom-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto; 
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .custom-column img{
+    width:390px
+  }
+  
+  .custom-column {
+    text-align: center;
+    padding: 10px auto;
+    margin: 20px;
+    max-width: auto; 
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  .HeaderTitle {
+    margin-top: -60px;
+  }
+
+  .card-block {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 40px;
+    margin-top: 300px;
+    max-width: auto; 
+    width: auto;
+    background-color: whitesmoke;
+    margin-bottom: 60px;
+    padding: 80px; 
+    border-radius: 50px;
+    margin-left: 30px;
+
+  }
+
+  .item-row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+
+  .item {
+    
+      flex-basis: calc(100% - 40px); /* Set the basis to 100% of the container width minus the gap for smaller screens */
+      max-width: calc(100% - 40px); /* Adjust max width for smaller screens */
+    
+  }
+ 
+
+  .intoEnterprise {
+    width: auto;
+    height: auto;
+    margin-top: 1790px;
+    background-color: rgb(246, 241, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px; 
+    text-align: center;
+  }
+
+  .intoEnterprise p {
+    text-align: center;
+  
+    
+  }
+
+  .titleWrapper,
+  .accDescription {
+    width: 80%;
+  }
+
+
+  .custom-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    margin-top: 100px;
+    padding: 20px;
+    width: auto;
+    max-width: auto;
+   
+  }
+  
+  .custom-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto; 
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+  
+  .custom-column {
+    text-align: center;
+    padding: 10px 10px;
+    margin: 20px;
+    max-width: 800px; 
+    width: 100%;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width:768px) and (max-width: 991px) {
+  .HeaderTitle {
+    margin-top: -60px;
+  }
+
+  
+  .card-block {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 40px;
+    margin-top: 300px;
+    max-width: auto; 
+    width: auto;
+    background-color: whitesmoke;
+    margin-bottom: 60px;
+    padding: 80px; 
+    border-radius: 50px;
+    margin-left: 30px;
+
+  }
+
+  .item-row {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+  }
+
+  .item {
+    
+      flex-basis: calc(100% - 40px); /* Set the basis to 100% of the container width minus the gap for smaller screens */
+      max-width: calc(100% - 40px); /* Adjust max width for smaller screens */
+    
+  }
+
+  .item-text {
+    padding: 25px;
+  }
+
+  .learn {
+    background-color: #008000;
+    color: #fff;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .learn span {
+    margin-right: 10px; /* Add margin-right to create space between text and icon */
+  }
+
+  .learn:hover {
+    background-color: white;
+    border: 1px solid #008000;
+    color: black;
+  }
+
+  .arrow-icon {
+    font-size: 24px; /* Adjust the size as needed */
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+  }
+
+  .learn:hover .arrow-icon {
+    transform: translateY(-50%) rotate(-45deg);
+  }
+
+  .intoEnterprise {
+    width: auto;
+    height: auto;
+    margin-top:1600px;
+    background-color: rgb(246, 241, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 5px;
+    text-align: center;
+  }
+  .intoEnterprise p {
+    text-align: center;
+    
+  }
+
+  .titleWrapper,
+  .accDescription {
+    width: 45%; 
+  }
+
+  .accountingtitle {
+    color: black;
+    text-align: left;
+  }
+
+  .accDescription {
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+    padding-top: 40px;
+  }
+
+  .custom-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    margin-top: 100px;
+    padding: 20px;
+    width: auto;
+    max-width: auto;
+  }
+  
+  .custom-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto; 
+    margin-right: auto;
+    margin-left: auto;
+ 
+  }
+  
+  .custom-column {
+    text-align: center;
+    padding: 10px 10px;
+    margin: 20px;
+    max-width: 800px; 
+    width: 100%;
+  }
+  .item:hover {
+    transform: translateY(-10px);
+    background-position: center 100%;
+    background-size: 105%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width:992px) and (max-width: 1199px) {
+ .HeaderTitle{
+      margin-top: -60px;
+    
+    }
+    .card-block {
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+      gap: 40px;
+      margin-top: 300px;
+      max-width: 1200px; 
+      width:auto;
+      margin-bottom: 60px;
+      padding: 80px; 
+      border-radius: 50px;
+     margin-left: auto;
+     margin-right: auto;
+    }
+  
+    .item-row {
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content: center;
+      gap: 30px;
+      margin-top: 10px;
+    }
+  
+    .item {
+      flex: 1; /* Take up equal space */
+      max-width: calc(25% - 20px); /* Adjust max width for responsiveness */
+      box-shadow: 0 0 10px #2b2a2a;
+      text-align: center;
+      color: black;
+      transition: all 0.3s;
+    }
+  
+    .item-text {
+      padding: 25px;
+    }
+  
+    .learn {
+      background-color: #008000;
+      color: #fff;
+      padding: 10px 20px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+  
+    .learn span {
+      margin-right: 10px; /* Add margin-right to create space between text and icon */
+    }
+  
+    .learn:hover {
+      background-color: white;
+      border: 1px solid #008000;
+      color: black;
+    }
+  
+    .arrow-icon {
+      font-size: 24px; /* Adjust the size as needed */
+      position: absolute;
+      top: 50%;
+      right: 5px;
+      transform: translateY(-50%);
+      transition: transform 0.3s ease;
+    }
+  
+    .learn:hover .arrow-icon {
+      transform: translateY(-50%) rotate(-45deg);
+    }
+  
+    .intoEnterprise {
+      width:auto;
+      height: auto;
+      margin: 0 auto;
+      margin-top: 950px;
+      background-color: rgb(246, 241, 236);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; 
+      align-items: center;
+      padding: 20px;
+      
+       }   
+    .accDescription {
+      text-align: left;
+      font-size: 20px;
+      line-height: 40px;
+      padding-top: 40px;
+    }
+  
+    .custom-container {
+      display: flex;
+      flex-direction: column; /* Change flex-direction to column */
+      justify-content: center; /* Horizontally center the content */
+      align-items: center; /* Vertically center the content */
+      margin-top: 100px;
+      padding: 20px;
+      width: auto;
+      max-width: auto;
+    }
+    
+    .custom-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: auto; 
+      margin-right: auto;
+      margin-left: auto;
+   
+    }
+    
+    .custom-column {
+      text-align: left;
+      padding: 10px 10px;
+      margin: 20px;
+      max-width: 800px; 
+      width: 100%; 
+    }
+    
+    .item:hover {
+      transform: translateY(-10px);
+      background-position: center 100%;
+      background-size: 105%;
+    }
+
+}
+
+@media only screen
+  and (min-width: 1370px)
+  and (max-width: 1605px) {
+
+    .intoEnterprise{
+      width:1350px;
+      height:auto;
+  }
+
+  .accDescription {
+      text-align: left;
+      font-size: 18px;
+      line-height: 28px;
+       padding-top: 40px;
+    }
+   
+   
+    .custom-row {
+      display: flex; 
+      justify-content: center;
+      align-items: center;
+      width: 1358px;
+      margin-right:250px;
+    }
+    
+    .custom-column {
+      text-align: left;
+      padding: 10px 10px;
+      margin: 20px;
+      width:600px
+    }
+ 
+  }
+  @media only screen and (min-width: 1200px) {
+    .HeaderTitle{
+      margin-top: -60px;
+    
+    }
+    .card-block {
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+      gap: 40px;
+      margin-top: 300px;
+      max-width: 1200px; 
+      width:auto;
+      margin-bottom: 60px;
+      padding: 80px; 
+      border-radius: 50px;
+     margin-left: auto;
+     margin-right: auto;
+    }
+  
+    .item-row {
+      display: flex;
+      flex-wrap: wrap; /* Allow items to wrap */
+      justify-content: center;
+      gap: 40px;
+      margin-top: 20px;
+    }
+  
+    .item {
+      flex: 1; /* Take up equal space */
+      max-width: calc(25% - 20px); /* Adjust max width for responsiveness */
+      box-shadow: 0 0 10px #2b2a2a;
+      text-align: center;
+      color: black;
+      transition: all 0.3s;
+    }
+  
+    .item-text {
+      padding: 25px;
+    }
+  
+    .learn {
+      background-color: #008000;
+      color: #fff;
+      padding: 10px 20px;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+    }
+  
+    .learn span {
+      margin-right: 10px; /* Add margin-right to create space between text and icon */
+    }
+  
+    .learn:hover {
+      background-color: white;
+      border: 1px solid #008000;
+      color: black;
+    }
+  
+    .arrow-icon {
+      font-size: 24px; /* Adjust the size as needed */
+      position: absolute;
+      top: 50%;
+      right: 5px;
+      transform: translateY(-50%);
+      transition: transform 0.3s ease;
+    }
+  
+    .learn:hover .arrow-icon {
+      transform: translateY(-50%) rotate(-45deg);
+    }
+  
+    .intoEnterprise {
+      width:auto;
+      height: auto;
+      margin: 0 auto;
+      margin-top: 950px;
+      background-color: rgb(246, 241, 236);
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; 
+      align-items: center;
+      padding: 20px;
+      
+       }   
+    .accDescription {
+      text-align: left;
+      font-size: 20px;
+      line-height: 40px;
+      padding-top: 40px;
+    }
+  
+    .custom-container {
+      display: flex;
+      flex-direction: column; /* Change flex-direction to column */
+      justify-content: center; /* Horizontally center the content */
+      align-items: center; /* Vertically center the content */
+      margin-top: 100px;
+      padding: 20px;
+      width: auto;
+      max-width: auto;
+    }
+    
+    .custom-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: auto; 
+      margin-right: auto;
+      margin-left: auto;
+     
+    }
+    
+    .custom-column {
+      text-align: left;
+      padding: 10px 10px;
+      margin: 20px;
+      max-width: 800px; 
+      width: 100%; 
+    }
+    
+    .item:hover {
+      transform: translateY(-10px);
+      background-position: center 100%;
+      background-size: 105%;
+    }
+  
+  }
+  
+  @media only screen
+    and (min-width: 1370px)
+    and (max-width: 1605px) {
+  
+      .intoEnterprise{
+        width:1350px;
+        height:auto;
+    }
+  
+    .accDescription {
+        text-align: left;
+        font-size: 18px;
+        line-height: 28px;
+         padding-top: 40px;
+      }
+     
+     
+      .custom-row {
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        width: 1358px;
+        margin-right:250px;
+      }
+      
+      .custom-column {
+        text-align: left;
+        padding: 10px 10px;
+        margin: 20px;
+        width:600px
+      }
+   
+  }

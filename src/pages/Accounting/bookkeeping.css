@@ -1,0 +1,52 @@
+.bookkeepingh1{
+    color:rgb(8, 8, 107);
+    font-size: 90px;
+    margin-bottom: 40px;
+  }
+  @keyframes fadeZoomInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px) scale(1.5);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  } 
+  .advantagesBoxes {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 2s ease, transform 3s ease;
+  }
+  
+  .advantagesBoxes.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .platform {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 2s ease, transform 2s ease;
+  }
+  
+  .platform.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  @media only screen
+  and (min-width: 1370px)
+  and (max-width: 1605px) {
+
+    .flex-container{
+      display: flex;
+      justify-content: center;
+    }
+    .bookkeepingh1{
+      font-size: 50px;
+    }
+    .bookkeepingimg{
+      width:500px
+    }
+  }

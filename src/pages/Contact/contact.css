@@ -1,0 +1,184 @@
+.icon{
+    margin-left: 30px;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 35px;
+}
+.contact{
+    align-items: center;   
+}
+.getInTouch{
+    margin-top: 150px;
+    margin-left:250px;
+    margin-bottom: 60px;
+    line-height: 50px;
+    font-weight: 500;
+    font-size:45px;
+    text-align: center;
+}
+.all{
+  align-items: center;
+  text-align: center;
+}
+
+.form{
+  margin-top: 150px;
+  text-align: center;
+}
+.icons{
+    display: flex;
+    margin-left: 650px;
+   
+}
+.socials{
+    font-size: 30px;
+    color: #008000;
+    margin-top: 4px; 
+}
+
+h3{
+    margin-left: 20px;
+}
+
+.info{
+    margin-left: 290px;
+} 
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  .form-container label {
+    font-weight: bold;
+    font-size: 17px;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container textarea {
+    width: 100%;
+    padding: 18px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #575656;
+
+  }
+  
+  .form-container textarea {
+    height: 100px;
+  }
+  
+  .form-container button[type="submit"] {
+    background-color: #008000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  
+  .form-container button[type="submit"]:hover {
+    color: white;
+    background: black;
+  }
+  
+  @media only screen
+  and (min-width: 1370px)
+  and (max-width: 1605px) {
+    
+    .icons{
+      margin-left: 300px;
+  }
+  .info{
+    margin-left: 100px;
+} 
+  }
+  @media only screen and (min-width: 992px) {
+    .getInTouch {
+        margin-top: 150px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+    }
+    
+    .icons {
+        display: flex;
+        justify-content: center; 
+        margin-left: auto;
+    }
+    
+    .all {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .info {
+        margin-left: 0;
+        width: auto;
+    } 
+    
+    .description {
+        text-align: center;
+    }
+}
+
+  @media only screen and (min-width:768px) and (max-width: 991px) {
+  
+    .getInTouch{
+      margin-top: 100px;
+      margin-left:auto;
+      margin-right: auto;
+      margin-bottom: 50px;
+      }
+     
+      .icons{
+        display: flex;
+        justify-content: center; 
+        margin-left: 0; 
+
+    }
+    .all{
+      align-items: center;
+      text-align: center;
+    }
+    .info {
+      margin-left: 0; 
+      width: auto; 
+  }
+  .description{
+    text-align: center;
+  }
+    
+  }
+  @media only screen and (max-width: 767px) {
+    .getInTouch {
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+    }
+    
+    .icons {
+        display: flex;
+        justify-content: center; 
+        margin-left: 0; 
+    }
+    
+    .all {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .info {
+        margin-left: 0; 
+        width: auto; 
+    }
+    
+    .description {
+        text-align: center;
+    }
+}
