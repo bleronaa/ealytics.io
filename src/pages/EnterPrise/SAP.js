@@ -182,7 +182,7 @@ const SAP = () => {
           <p>Streamline your human capital management with an intelligent solution that supports recruitment, performance, learning, and more</p>
       </div>
       <div className='platform'>
-          <h4>SAPCustomerExperience(CX)</h4>
+          <h4>SAP Customer <br></br>Experience</h4>
           <p>Deliver exceptional customer experiences by unifying marketing, commerce, sales, and service operations</p>
       </div>
   </div>

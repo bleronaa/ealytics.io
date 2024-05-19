@@ -421,82 +421,7 @@
     .box-container{
         width:auto;
         height:auto;
-        margin-top:80px;
-        margin-left: auto;
-    }
-    .box-container h2{
-        color:rgb(34, 9, 9);
-        font-size: 25px ;
-    }
-    .title{
-        text-align: center;
-
-    }
-    .card-container {
-        margin-top: 20px;
-        width: auto;
-        height: auto;
-        margin-bottom: 100px;
-        margin-left: auto; 
-        margin-right: auto;
-    }
-    .card {
-        flex: 0 0 calc(100% - 20px); 
-        max-width: auto; 
-        width:auto;
-        text-align: center;
-      }
-      .card:hover{
-        color:black;
-      }
-      .card:hover .button{
-        margin-top: 210px;  
-      }
-
-    .left-up,
-    .left {
-        display: none
-    }
-    
-    
-    .right-up,
-    .right {
-        display: none;
-    }
-    .intoAccounting {
-        margin-top: 1800px;
-        width: auto; 
-        height: auto; 
-        margin-left: 28px;
-        display: flex;
-        flex-direction: column;
-    }
-    .accountingtitle{
-       width:250px;
-       
-    }
-    .accDescription {
-        text-align: left; 
-        margin-top: 20px; 
-        line-height: 1.5; 
-        width:auto;
-      }
-      .cards{
-        margin-left: auto;
-        margin-right: auto;
-        height:auto
-      
-      }    
-}
-
-
-
-@media only screen and (min-width: 481px) and (max-width: 767px) {
-
-    .box-container{
-        width:auto;
-        height:auto;
-        margin-top:380px;
+        margin-top:auto;
         margin-left: 0px;
     }
     .box-container h2{
@@ -541,7 +466,84 @@
         display: none;
     }
     .intoAccounting {
-        margin-top: 1800px;
+        margin-top: 1900px;
+        width: auto; 
+        height: auto; 
+        margin-left: 28px;
+        display: flex;
+        flex-direction: column;
+    }
+    .accountingtitle{
+       width:250px;
+       
+    }
+    .accDescription {
+        text-align: left; 
+        margin-top: 20px; 
+        line-height: 1.5; 
+        width:auto;
+      }
+      .cards{
+        margin-left: auto;
+        margin-right: auto;
+        height:auto
+      
+      }    
+}
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+    .box-container{
+        width:auto;
+        height:auto;
+        margin-top:auto;
+        margin-left: 0px;
+    }
+    .box-container h2{
+        color:rgb(34, 9, 9);
+        font-size: 25px;
+    }
+    .card-container h2{
+        margin-top: 390px;
+    }
+    .title{
+        text-align: center;
+    }
+    .card-container {
+        margin-top: 90px;
+        width: auto;
+        height: auto;
+        margin-bottom: 100px;
+        margin-left: 0; 
+        margin-right: auto;
+    }
+    .card {
+        flex: 0 0 calc(100% - 20px); 
+        max-width: auto; 
+        width:auto;
+        text-align: center;
+      }
+      .card:hover{
+        color:black;
+      }
+      .card:hover .button{
+        margin-top: 210px;  
+      }
+
+    .left-up,
+    .left {
+        display: none
+    }
+    
+    
+    .right-up,
+    .right {
+        display: none;
+    }
+    .intoAccounting {
+        margin-top: 1900px;
         width: auto; 
         height: auto; 
         margin-left: 28px;
@@ -580,7 +582,7 @@
     .box-container {
         width: auto;
         height: auto;
-        margin-top: 400px;
+        margin-top: auto;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -592,7 +594,7 @@
     }
 
     .card-container h2{
-        margin-top: 250px;
+        margin-top: 420px;
     }
    
     .title {
@@ -665,7 +667,7 @@
     .box-container {
         width: auto;
         height: auto;
-        margin-top: 380px;
+        margin-top: auto;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -743,7 +745,7 @@
     }
 }
 
-/* 
+
 @media only screen and (min-width: 1200px){
     .box-container {
         width: auto;
@@ -824,7 +826,7 @@
         margin-right: auto;
         height: auto;
     }
-} */
+}
 
 
 
@@ -932,7 +934,7 @@ and (max-width: 1605px){
     .box-container {
         width: 450px;
         height: 200px; 
-        margin-top: -80px; 
+        margin-top: -120px; 
         margin-left: 0px; 
         margin-right: auto;
         text-align: center; 
@@ -945,14 +947,15 @@ and (max-width: 1605px){
 
     .title {
         text-align: center;
+        margin-left: 70px;
+        margin-top: 90px;
     }
 
     .card-container {
-        margin-top: 60px;
         width: auto; 
         height: auto;
         margin-bottom: 100px;
-        margin-right: 150px;
+        margin-right: 50px;
         
        
     } 

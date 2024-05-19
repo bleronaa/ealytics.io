@@ -315,6 +315,7 @@ h4.testimonial__text {
     .box1 {
         margin-left: 20px;
         text-align: center;
+        margin-top: auto;
     }
     .service__box {
         width: auto;

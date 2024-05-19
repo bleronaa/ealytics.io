@@ -16,7 +16,7 @@ const About = () => {
     backgroundImage: `url(${backgroundImg})`,
     backgroundSize: 'cover',
     backgroundRepeat: 'no-repeat',
-    height: '60vh',
+    height: '80vh',
     backgroundPosition: 'center',
     width: '100%',
   };

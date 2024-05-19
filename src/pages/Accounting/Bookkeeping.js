@@ -92,7 +92,7 @@ const Bookkeeping = () => {
         <div>
             <div className="flex-container">
                 <div className="flex-item">
-                    <h1 className='bookkeepingh1'>Accounting/Bookkeeping</h1>
+                    <h1 className='bookkeepingh1'>Accounting/<br></br>Bookkeeping</h1>
                     <h5 className='saph5'>EXPERT ACCOUNTING & BOOKKEEPING: ACCURATE, EFFICIENT, COMPLIANT</h5>
                 </div>
                 <div className="flex-item1">
@@ -103,7 +103,7 @@ const Bookkeeping = () => {
             <div className='advantages'>
                 <h2 className='h2advantages'>
                     At
-                    <span>Ealytics</span>, we specialize in comprehensive accounting and bookkeeping
+                    <span> Ealytics</span>, we specialize in comprehensive accounting and bookkeeping
                     <br></br>services that ensure accurate financial records, efficient processes,
                     and seamless compliance
                 </h2>
