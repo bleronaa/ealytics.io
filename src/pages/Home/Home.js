@@ -30,13 +30,12 @@ const Home = () => {
 
   useEffect(() => {
     if (showCalendly) {
-      // Trigger Calendly to open
-      // Adjust URL based on your Calendly settings
-      window.location.href = 'https://calendly.com/bleronatmava12';
+      
+      window.location.href = 'https://calendly.com/art-ealytics/30min?month=2024-05';
     }
   }, [showCalendly]);
 
-  // Add Calendly event listener
+
   useCalendlyEventListener({
     onEventScheduled: (e) => console.log(e.data.payload)
   });
@@ -281,7 +280,7 @@ const Home = () => {
             
            
             </div>
-             {/* Contact Us button */}
+           
       
             <Contact/>
             <Footer/>

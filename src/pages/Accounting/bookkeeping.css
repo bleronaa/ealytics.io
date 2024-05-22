@@ -343,13 +343,11 @@
         margin-left: 5px; 
         text-align: center;
         width:auto;
-       /* background-color: #008000; */
     }
     .serviceSection {
         display: flex;
         justify-content: center;
         align-items: center;
-       /* background-color: #008000; */
 
     }
     .service{
@@ -363,18 +361,15 @@
     .col-md-4 {
         width: 100%;
         padding: 15px;
-       /* background-color: #008000; */
 
     }
     .service__box {
         width: auto;
         height: auto;
         text-align: center;
-       /* background-color: #008000; */
 
     }
 .text{
-    /* background-color: #008000; */
     width:auto;
     height: auto;
     margin-left: auto;
@@ -390,14 +385,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* background-color: #114a4b; */
         width: auto;
         height:auto;
         margin-left: auto;
         margin-right: auto;
     }
     .service__box {
-        /* background-color: red; */
         width:auto;
         margin-left: 30px;
         margin-right: auto;

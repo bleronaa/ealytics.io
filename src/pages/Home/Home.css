@@ -313,9 +313,9 @@ h4.testimonial__text {
 }
 @media only screen and (min-width: 1200px) {
     .box1 {
-        margin-left: 20px;
+        margin-left: 10px;
         text-align: center;
-        margin-top: auto;
+        margin-top: 180px;
     }
     .service__box {
         width: auto;
@@ -334,13 +334,17 @@ h4.testimonial__text {
         height: auto;
         line-height: 22px;
     }
+    .col-md-6{
+        display: flex;
+        justify-content: center;
+    }
 
 }
 @media only screen and (min-width:992px) and (max-width: 1199px) {
     .box1 {
-        /* margin-top: 520px; */
         margin-left: 20px;
         text-align: center;
+        margin-top: 350px;
     }
     .col-md-4 {
         flex: 0 0 calc(50% - 15px);
@@ -395,6 +399,7 @@ h4.testimonial__text {
     .box1 {
         margin-left: 20px;
         text-align: center;
+        margin-top: 350px;;
     }
     .serviceSection {
       display: flex;
@@ -464,11 +469,12 @@ h4.testimonial__text {
   
 }
 
-@media only screen and (min-width: 481px) and (max-width: 767px) {
+@media only screen and (min-width: 620px) and (max-width: 767px) {
     .box1 {
         margin-left: 5px;
         text-align: center;
-        width:auto
+        width:auto;
+        margin-top: 380px;
     }
     .serviceSection {
         display: flex;
@@ -503,7 +509,7 @@ h4.testimonial__text {
     }
 
     .testimonial_middle_box {
-        height: 480px; /* qitash e bona*/
+        height: 480px;
         overflow-y: auto;
     }
 
@@ -536,13 +542,19 @@ h4.testimonial__text {
         margin-top: 20px; 
     }
 }
- 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width:480px) and (max-width:680px){
     .box1 {
-        margin-left: 5px; 
+        margin-left: 15px; 
         text-align: center;
-        width:auto
+        width:auto;
+        margin-top: 420px;
     }
+    .featureHeader{
+        font-size: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
     .serviceSection {
         display: flex;
         justify-content: center;
@@ -581,8 +593,96 @@ h4.testimonial__text {
     }
 
     .animation {
+        width:auto;
+        margin-top: 10px; 
+        font-size: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        height: auto; 
+        margin-left: auto;
+        margin-right: auto;
+        width:auto
+    }
+    .text p {
+        text-align: center; 
+    }
+
+    .col-md-6 {
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .selectSchedule {
+        margin-top: auto;
+        text-align: center; 
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .inline-widget {
+        margin-top:auto; 
+    }
+}
+ 
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .box1 {
         margin-left: 10px; 
-        margin-top: 20px; 
+        text-align: center;
+        width:auto;
+        margin-top: 420px;
+    }
+    .featureHeader{
+        font-size: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    .serviceSection {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .col-md-4 {
+        width: 100%;
+        padding: 15px;
+    }
+    .service__box {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .service__meta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    p.service__text.p__color {
+        text-align: center;
+    }
+
+    .testimonial__box {
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .testimonial_middle_box {
+        height: 480px; 
+        overflow-y: auto;
+    }
+
+    .animation {
+        width:auto;
+        margin-top: 10px; 
         font-size: 20px;
     }
     .text {
@@ -618,20 +718,17 @@ h4.testimonial__text {
 
 @media only screen and (max-width: 319px) {
     .box1 {
-        margin-left: 5px; 
+        margin-left: 8px; 
         text-align: center;
         width:auto;
-       /* background-color: #008000; */
     }
     .serviceSection {
         display: flex;
         justify-content: center;
         align-items: center;
-       /* background-color: #008000; */
 
     }
     .service{
-        background-color: pink;
         max-width:319px;
         height:auto;
         margin-left: 50px;
@@ -641,18 +738,15 @@ h4.testimonial__text {
     .col-md-4 {
         width: 100%;
         padding: 15px;
-       /* background-color: #008000; */
 
     }
     .service__box {
         width: auto;
         height: auto;
         text-align: center;
-       /* background-color: #008000; */
 
     }
 .text{
-    /* background-color: #008000; */
     width:auto;
     height: auto;
     margin-left: auto;
@@ -668,14 +762,12 @@ h4.testimonial__text {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* background-color: #114a4b; */
         width: auto;
         height:auto;
         margin-left: auto;
         margin-right: auto;
     }
     .service__box {
-        /* background-color: red; */
         width:auto;
         margin-left: 30px;
         margin-right: auto;
