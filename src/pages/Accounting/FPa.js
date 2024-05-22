@@ -231,7 +231,7 @@ const FPa = () => {
         ))}
         </div>
       </div>
-      {/* <h2>Ready to transform your financial planning and analysis? Contact us today!</h2> */}
+      
       <Footer/>
     </div>
   )

@@ -38,10 +38,12 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
-    margin-top: 320px;
+    margin-top: 120px;
     width: 880px;
     height: 850px;
-    margin-left: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 
 }
 
@@ -52,13 +54,14 @@
     margin-top: 30px;
     box-shadow: 0 0 10px #2b2a2a;
     text-align: center;
-    color:whitesmoke
+    color:whitesmoke;
+    
 }
 .card-title {
     position: absolute;
     width: 500px;
     right: 0;
-    left: -50px;
+    left: 0;
     top: 90px;
     font-weight: 700;
     font-size: 30px;
@@ -89,12 +92,12 @@
     cursor: pointer;
     margin-top: 180px;
     margin-right: 5px;
-    /* position: absolute; */
+   
 }
 .button a {
     width: 200px;
     padding: 12px 48px;
-    /* text-align: center; */
+
     padding-right: 30px;
     color: white;
     margin-right: 18px;
@@ -248,7 +251,7 @@
   }
 
   .cards{
-    /* position: relative; */
+  
     width: calc(50% - 20px);
     width:400px;
     height: 750px;
@@ -256,7 +259,7 @@
     box-shadow: 0 0 10px #2b2a2a;
     text-align: center;
     transition: all 0.3s;
-    /* background-color: red; */
+   
   }
 .cards:hover{
     transform: translateY(-30px);
@@ -265,82 +268,9 @@
 }
 
   
-  /* .card:last-child {
-    margin-right: 0;
-  } */
  
-/* Laptop responsive */
-  @media only screen
-  and (min-width: 1370px)
-  and (max-width: 1605px) {
-  
-    .container h2 {
-        margin-right: 55px;
-        text-align: center;
-        font-size: 2rem;
-    }
-    .title{
-        font-size: 2rem;
-        text-align: center;
-    }
-    .card-container {
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 20px;
-        justify-content: center;
-        gap: 40px;  
-        width: 880px;
-        height: 850px;
-    }
-   .card {
-        width: calc(50% - 20px);
-        max-width: 540px;
-        height: 280px;
-        margin-top: 10px;
-        box-shadow: 0 0 10px #2b2a2a;
-        text-align: center;
-        color:whitesmoke
-    }
-    .card-title{
-        font-size:1.5rem;
-        margin: auto;
-    } 
-    .left-up,
-    .left {
-        margin-top: 280px;
-        margin-right:830px;
-        animation: fade-in  30s infinite alternate, moveUpDown 2s infinite;
-        width:200px; 
-    }
-    .left{
-        margin-bottom:100px ;
-    }
-    .right-up,
-    .right {
-      margin-top: 270px;
-        animation: fade-in  30s infinite alternate, moveUpDown 2s infinite; 
-        width:200px;
-        margin-left: 25px;
-    }
-    .right{
-        margin-bottom:100px ;
-    }
-    .intoAccounting{
-        width:1350px;
-        height:auto;
-    }
-  
-    .accDescription {
-        text-align: left;
-        font-size: 18px;
-        line-height: 28px;
-         padding-top: 40px;
-      }
-      
-    
+ 
 
-
-}
 
 /* Mobile responsive  */
 
@@ -350,7 +280,6 @@
         height:auto;
         margin-top:80px;
         margin-left: 0px;
-        background-color: #008000;
     }
     .box-container h2{
         color:rgb(34, 9, 9);
@@ -382,16 +311,7 @@
         margin-top: 210px;  
       }
 
-    .left-up,
-    .left {
-        display: none
-    }
     
-    
-    .right-up,
-    .right {
-        display: none;
-    }
     .intoAccounting {
         margin-top: 1800px;
         width: auto; 
@@ -418,58 +338,49 @@
       }    
 }
 @media only screen and (min-width: 320px) and (max-width: 480px){
+    
     .box-container{
         width:auto;
         height:auto;
-        margin-top:auto;
+        margin-top:370px;
         margin-left: 0px;
     }
     .box-container h2{
         color:rgb(34, 9, 9);
-        font-size: 25px ;
+        font-size: 25px;
     }
     .card-container h2{
-        margin-top: 190px;
+        margin-top: 200px;
+        font-size:32px ;
     }
-    .title{
-        text-align: center;
-    }
+   
+    
     .card-container {
         margin-top: 90px;
         width: auto;
         height: auto;
         margin-bottom: 100px;
-        margin-left: 0; 
+        margin-left: 30px; 
         margin-right: auto;
     }
+   
     .card {
-        flex: 0 0 calc(100% - 20px); 
+        flex: 0 0 calc(100% - 70px); 
         max-width: auto; 
         width:auto;
-        text-align: center;
       }
-      .card:hover{
-        color:black;
-      }
-      .card:hover .button{
-        margin-top: 210px;  
+      .card-title{
+        margin-right: auto;
+        margin-left: auto;
+        width:auto
       }
 
-    .left-up,
-    .left {
-        display: none
-    }
-    
-    
-    .right-up,
-    .right {
-        display: none;
-    }
     .intoAccounting {
-        margin-top: 1900px;
+        margin-top: 2100px;
         width: auto; 
         height: auto; 
-        margin-left: 28px;
+        margin-left: 8px;
+        margin-right: auto;
         display: flex;
         flex-direction: column;
     }
@@ -488,7 +399,7 @@
         margin-right: auto;
         height:auto
       
-      }    
+      }       
 }
 
 
@@ -498,7 +409,7 @@
     .box-container{
         width:auto;
         height:auto;
-        margin-top:auto;
+        margin-top:130px;
         margin-left: 0px;
     }
     .box-container h2{
@@ -525,28 +436,13 @@
         width:auto;
         text-align: center;
       }
-      .card:hover{
-        color:black;
-      }
-      .card:hover .button{
-        margin-top: 210px;  
-      }
 
-    .left-up,
-    .left {
-        display: none
-    }
-    
-    
-    .right-up,
-    .right {
-        display: none;
-    }
     .intoAccounting {
         margin-top: 1900px;
         width: auto; 
         height: auto; 
-        margin-left: 28px;
+        margin-left: 8px;
+        margin-right: auto;
         display: flex;
         flex-direction: column;
     }
@@ -578,11 +474,11 @@
        }
    }
 }
-@media only screen and (min-width:768px) and (max-width: 991px){
+@media only screen and (min-width:768px) and (max-width: 992px){
     .box-container {
         width: auto;
         height: auto;
-        margin-top: auto;
+        margin-top: 290px;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -593,48 +489,34 @@
         font-size: 25px;
     }
 
-    .card-container h2{
-        margin-top: 420px;
-    }
-   
     .title {
         text-align: center;
-        margin-top: 100px;
+        margin-top: 270px;
     }
 
     .card-container {
-        margin-top: 120px;
-        width: auto;
+        width: 700px;
         height: auto;
-        margin-bottom: 100px;
         margin-left: auto;
         margin-right: auto;
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         justify-content: center;
         margin-top: 20px;
     }
-  
-    
-
-    .card {
+      .card {
         flex: 0 0 calc(50% - 20px);
-        width: auto;
+        width: 600px;
         text-align: center;
         margin-bottom: 20px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
-    
-    .left-up,
-    .left,
-    .right-up,
-    .right {
-        display: none;
-    }
 
     
     .intoAccounting {
-        margin-top: 1220px;
+        margin-top:1600px;
         width: auto; 
         height: auto;
         margin-left: auto;
@@ -653,7 +535,7 @@
         text-align: center;
         margin-top: 20px;
         line-height: 1.5;
-        width: auto;
+        width: 90%;
         max-width: 700px;
     }
 
@@ -662,6 +544,7 @@
         margin-right: auto;
         height: auto;
     }
+  
 }
 @media only screen and (min-width:992px) and (max-width: 1199px)  {
     .box-container {
@@ -680,7 +563,7 @@
 
     .title {
         text-align: center;
-        margin-top: 290px;
+        margin-top: 460px;
     }
 
     .card-container {
@@ -705,18 +588,11 @@
         margin-bottom: 20px;
     }
 
-    
-    .left-up,
-    .left,
-    .right-up,
-    .right {
-        display: none;
-    }
 
     
     .intoAccounting {
         margin-top: 1220px;
-        width: 100%; 
+        width: auto; 
         height: auto;
         margin-left: auto;
         margin-right: auto;
@@ -745,201 +621,16 @@
     }
 }
 
-
-@media only screen and (min-width: 1200px){
-    .box-container {
-        width: auto;
-        height: auto;
-        margin-top: 80px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
-   
-    .box-container h2 {
-        color: rgb(34, 9, 9);
-        font-size: 25px;
-    }
-
-    .title {
-        text-align: center;
-        margin-top: 290px;
-    }
-
-    .card-container {
-        margin-top: 20px;
-        width: auto;
-        height: auto;
-        margin-bottom: 100px;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: 20px;
-    }
   
-    
-
-    .card {
-        flex: 0 0 calc(50% - 20px);
-        width: auto;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    
-    .left-up,
-    .left,
-    .right-up,
-    .right {
-        display: none;
-    }
-
-    
-    .intoAccounting {
-        margin-top: 1220px;
-        width: 100%; 
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .accountingtitle {
-        width: auto;
-        margin-bottom: 20px;
-    }
-
-    .accDescription {
-        text-align: center;
-        margin-top: 20px;
-        line-height: 1.5;
-        width: 90%;
-        max-width: 700px;
-    }
-
-    .cards {
-        margin-left: auto;
-        margin-right: auto;
-        height: auto;
-    }
-}
-
-
-
-
-
-/* @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    .box-container {
-        width: auto;
-        height: auto;
-        margin-top: 80px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-    }
-   
-    .box-container h2 {
-        color: rgb(34, 9, 9);
-        font-size: 25px;
-    }
-
-    .title {
-        text-align: center;
-        margin-top: 290px;
-    }
-
-    .card-container {
-        margin-top: 20px;
-        width: auto;
-        height: auto;
-        margin-bottom: 100px;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: 20px;
-    }
-  
-    
-
-    .card {
-        flex: 0 0 calc(50% - 20px);
-        width: auto;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    
-    .left-up,
-    .left,
-    .right-up,
-    .right {
-        display: none;
-    }
-
-    
-    .intoAccounting {
-        margin-top: 1220px;
-        width: 100%; 
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .accountingtitle {
-        width: auto;
-        margin-bottom: 20px;
-    }
-
-    .accDescription {
-        text-align: center;
-        margin-top: 20px;
-        line-height: 1.5;
-        width: 90%;
-        max-width: 700px;
-    }
-
-    .cards {
-        margin-left: auto;
-        margin-right: auto;
-        height: auto;
-    }
-} */
-
-@media only screen
-and (min-width: 1200)
-and (max-width: 1605px){
-
-    .box-container {
-        width: 450px;
-        height: 200px; 
-        margin-top: -30px; 
-        margin-left: 0px; 
-        margin-right: auto;
-        text-align: center; 
-        
-    }
-    
-}
-
 @media only screen  and (min-width: 1200px) {
     .box-container {
         width: 450px;
-        height: 200px; 
-        margin-top: -120px; 
-        margin-left: 0px; 
+        height: 190px;
+        margin-top: 10px;
+        margin-left: 10px;
         margin-right: auto;
-        text-align: center; 
+        text-align: center;
     }
-
     .box-container h2 {
         color: rgb(34, 9, 9);
         font-size: 25px;
@@ -947,57 +638,48 @@ and (max-width: 1605px){
 
     .title {
         text-align: center;
-        margin-left: 70px;
-        margin-top: 90px;
+        margin-top: 170px;
     }
-
     .card-container {
-        width: auto; 
+        margin-top: 20px;
+        width: auto;
         height: auto;
         margin-bottom: 100px;
-        margin-right: 50px;
-        
-       
-    } 
-
-
-    .card:hover {
-        color: black;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
     }
-
-    .card:hover .button {
-        margin-top: 210px; 
+    
+    .card {
+        flex: 0 0 calc(50% - 20px);
+        width: auto;
+        text-align: center;
+        margin-bottom: 20px;
     }
-
-    .left-up,
-    .left,
-    .right-up,
-    .right {
-        display: none; 
-    }
-
     .intoAccounting {
-        margin-top: 1220px; 
-        width: 100%; 
-        height: auto; 
-        margin-left: auto; 
-        margin-right: auto; 
+        margin-top: 1220px;
+        width: auto; 
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
         display: flex;
         flex-direction: column;
-        align-items: center; 
+        align-items: center;
     }
-
-    .accountingtitle {
-        width: auto; 
-        margin-bottom: 20px; 
+    .titleWrapper h1 {
+        width: auto;
+        margin-bottom: 20px;
+        text-align: center;
     }
-
     .accDescription {
-        text-align: center; 
+        text-align: center;
         margin-top: 20px;
-        line-height: 1.5; 
-        width: 90%; 
-        max-width: 700px; 
+        line-height: 1.5;
+        width: 90%;
+        max-width: 700px;
     }
 
     .cards {
@@ -1005,6 +687,8 @@ and (max-width: 1605px){
         margin-right: auto;
         height: auto;
     }
+
+
 }
 
 

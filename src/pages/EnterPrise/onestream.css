@@ -212,35 +212,39 @@ and (max-width: 1605px) {
         display: flex;
         flex-direction: column;
         align-items: center;
+        width: auto;
+        height: auto;
+        margin-left: 15px;
     }
     
-    .faq-text {
-        margin-bottom: 20px; /* Adjust margin as needed */
+    .faq-text h1 {
+        margin-bottom: 20px; 
         text-align: center;
         width:auto;
+        font-size: 25px;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: 40px;
     }
     
     .faqPart {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 20px; /* Adjust gap between questions */
+        gap: 20px; 
     }
     
     .faq-question {
         width: auto;
-        max-width: 600px; /* Adjust max-width as needed */
+        max-width: 600px; 
     }
     
     .faq-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #f0f0f0; /* Background color of question header */
-        padding: 10px 20px; /* Adjust padding as needed */
-        border-radius: 5px; /* Adjust border radius as needed */
+        background-color: #f0f0f0; 
+        padding: 10px 20px;
+        border-radius: 5px; 
         cursor: pointer;
     }
     
@@ -249,9 +253,9 @@ and (max-width: 1605px) {
     }
     
     .faq-answer {
-        background-color: #ffffff; /* Background color of answer */
-        padding: 10px 20px; /* Adjust padding as needed */
-        border-radius: 5px; /* Adjust border radius as needed */
+        background-color: #ffffff; 
+        padding: 10px 20px; 
+        border-radius: 5px; 
     }
   }
   @media only screen and (min-width: 320px) and (max-width: 479px){
@@ -262,7 +266,7 @@ and (max-width: 1605px) {
     }
     
     .faq-text {
-        margin-bottom: 20px; /* Adjust margin as needed */
+        margin-bottom: 20px; 
         text-align: center;
         width:auto;
         margin-left: auto;
@@ -273,21 +277,21 @@ and (max-width: 1605px) {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 20px; /* Adjust gap between questions */
+        gap: 20px; 
     }
     
     .faq-question {
         width: auto;
-        max-width: 600px; /* Adjust max-width as needed */
+        max-width: 600px;
     }
     
     .faq-header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #f0f0f0; /* Background color of question header */
-        padding: 10px 20px; /* Adjust padding as needed */
-        border-radius: 5px; /* Adjust border radius as needed */
+        background-color: #f0f0f0;
+        padding: 10px 20px; 
+        border-radius: 5px; 
         cursor: pointer;
     }
     
@@ -296,8 +300,55 @@ and (max-width: 1605px) {
     }
     
     .faq-answer {
-        background-color: #ffffff; /* Background color of answer */
-        padding: 10px 20px; /* Adjust padding as needed */
-        border-radius: 5px; /* Adjust border radius as needed */
+        background-color: #ffffff; 
+        padding: 10px 20px; 
+        border-radius: 5px; 
+    }
+  }
+  @media only screen and (max-width: 320px){
+    .faq-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .faq-text {
+        margin-bottom: 20px; 
+        text-align: center;
+        width:auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .faqPart {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px; 
+    }
+    
+    .faq-question {
+        width: auto;
+        max-width: 600px;
+    }
+    
+    .faq-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f0f0f0;
+        padding: 10px 20px; 
+        border-radius: 5px; 
+        cursor: pointer;
+    }
+    
+    .faq-header h3 {
+        margin: 0;
+    }
+    
+    .faq-answer {
+        background-color: #ffffff; 
+        padding: 10px 20px; 
+        border-radius: 5px; 
     }
   }

@@ -1,4 +1,4 @@
-import React, {useState,useEffect} from 'react';
+import React, {useState,useEffect, useRef } from 'react';
 import Footer from '../../components/Footer';
 import box1 from '../../images/onestreambox1.png';
 import box2 from '../../images/onestreambox2.png';
@@ -10,7 +10,26 @@ import managedServices from '../../images/insight-onestream.webp';
 import './onestream.css'
 
 const Onestream = () => {
-
+    const [animateImage, setAnimateImage] = useState(false);
+    const imageRef = useRef(null);
+  
+    useEffect(() => {
+      const handleScroll = () => {
+        const imageTop = imageRef.current.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+        if (imageTop < windowHeight * 0.75) {
+          setAnimateImage(true);
+          window.removeEventListener('scroll', handleScroll);
+        }
+      };
+  
+      window.addEventListener('scroll', handleScroll);
+      
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
+  
     const faqs = [
         {
             question: "What is OneStream, and how can they benefit my business?",
@@ -95,7 +114,7 @@ const Onestream = () => {
                     <h5 className='saph5'>HARNESS THE POWER OF ONESTREAM: CONSOLIDATE, OPTIMIZE, EVOLVE</h5>
                 </div>
                 <div className="flex-item1">
-                    <img src={onestream} width={450}/>
+                    <img src={onestream} className='imganaplan'/>
                 </div>
             </div>
 
@@ -139,9 +158,10 @@ const Onestream = () => {
                 <h2 className='h2implementation'>
                     Implementation Solutions</h2>
                 <div className='solutions'>
-                    <div className="solution">
-                        <img src={implementation} width={500} height={400} style={{marginTop:70}}/>
+                <div ref={imageRef} className={`image-container ${animateImage ? 'animate' : ''}`}>
+                <img src={implementation} width={600}  style={{marginTop:70}}/>
                     </div>
+                   
                     <div className="solution">
                         <h5>Need help implementing OneStream or optimizing your current models? Our
                             expert team will refine your strategy, processes, and integration to deliver
@@ -192,7 +212,7 @@ const Onestream = () => {
 
                     </div>
                     <div className="solution">
-                        <img className='solutionimg' src={managedServices} width={690} height={450}/>
+                        <img className='solutionimg' src={managedServices} width={650} height={450}/>
                     </div>
                 </div>
             </div>
@@ -267,7 +287,7 @@ const Onestream = () => {
                     ))}
                 </div>
             </div>
-            {/* <h2>Ready to transform your financial planning and analysis? Contact us today!</h2> */}
+          
             <Footer/>
         </div>
     )

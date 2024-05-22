@@ -285,8 +285,8 @@
 
   .custom-container {
     display: flex;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
+    justify-content: center; 
+    align-items: center;
     margin-top: 100px;
     padding: 20px;
     width: auto;
@@ -330,7 +330,7 @@
     flex-direction: column; 
     align-items: center; 
     gap: 40px;
-    margin-top: 300px;
+    margin-top: 600px;
     max-width: auto; 
     width: auto;
     background-color: whitesmoke;
@@ -351,13 +351,13 @@
 
   .item {
     flex-basis: calc(100% - 40px); 
-    max-width: calc(100% - 40px); 
+    max-width: calc(100% - 10px); 
   }
 
   .intoEnterprise {
     width: auto;
     height: auto;
-    margin-top: 1800px; /* Adjusted margin-top */
+    margin-top: 2500px;
     background-color: rgb(246, 241, 236);
     display: flex;
     flex-direction: column;
@@ -380,8 +380,8 @@
 
   .custom-container {
     display: flex;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
+    justify-content: center; 
+    align-items: center; 
     margin-top: 100px;
     padding: 20px;
     width: auto;
@@ -401,7 +401,9 @@
   }
 
   .custom-column img {
-    width: 390px;
+    width: 290px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .custom-column {
@@ -480,8 +482,8 @@
 
   .custom-container {
     display: flex;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
+    justify-content: center;
+    align-items: center; 
     margin-top: 100px;
     padding: 20px;
     width: auto;
@@ -563,8 +565,8 @@
 
   .custom-container {
     display: flex;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
+    justify-content: center; 
+    align-items: center; 
     margin-top: 100px;
     padding: 20px;
     width: auto;
@@ -632,8 +634,8 @@
 
   .item {
     
-      flex-basis: calc(100% - 40px); /* Set the basis to 100% of the container width minus the gap for smaller screens */
-      max-width: calc(100% - 40px); /* Adjust max width for smaller screens */
+      flex-basis: calc(100% - 40px); 
+      max-width: calc(100% - 40px); 
     
   }
  
@@ -665,8 +667,8 @@
 
   .custom-container {
     display: flex;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
+    justify-content: center; 
+    align-items: center; 
     margin-top: 100px;
     padding: 20px;
     width: auto;
@@ -705,7 +707,7 @@
     flex-direction: column; 
     align-items: center; 
     gap: 40px;
-    margin-top: 300px;
+    margin-top: 500px;
     max-width: auto; 
     width: auto;
     background-color: whitesmoke;
@@ -726,8 +728,8 @@
 
   .item {
     
-      flex-basis: calc(100% - 40px); /* Set the basis to 100% of the container width minus the gap for smaller screens */
-      max-width: calc(100% - 40px); /* Adjust max width for smaller screens */
+      flex-basis: calc(100% - 40px); 
+      max-width: calc(100% - 40px);
     
   }
 
@@ -748,7 +750,7 @@
   }
 
   .learn span {
-    margin-right: 10px; /* Add margin-right to create space between text and icon */
+    margin-right: 10px;
   }
 
   .learn:hover {
@@ -758,7 +760,7 @@
   }
 
   .arrow-icon {
-    font-size: 24px; /* Adjust the size as needed */
+    font-size: 24px;
     position: absolute;
     top: 50%;
     right: 5px;
@@ -806,8 +808,8 @@
 
   .custom-container {
     display: flex;
-    justify-content: center; /* Horizontally center the content */
-    align-items: center; /* Vertically center the content */
+    justify-content: center; 
+    align-items: center; 
     margin-top: 100px;
     padding: 20px;
     width: auto;
@@ -869,8 +871,8 @@
     }
   
     .item {
-      flex: 1; /* Take up equal space */
-      max-width: calc(25% - 20px); /* Adjust max width for responsiveness */
+      flex: 1; 
+      max-width: calc(25% - 20px);
       box-shadow: 0 0 10px #2b2a2a;
       text-align: center;
       color: black;
@@ -894,7 +896,7 @@
     }
   
     .learn span {
-      margin-right: 10px; /* Add margin-right to create space between text and icon */
+      margin-right: 10px; 
     }
   
     .learn:hover {
@@ -903,24 +905,15 @@
       color: black;
     }
   
-    .arrow-icon {
-      font-size: 24px; /* Adjust the size as needed */
-      position: absolute;
-      top: 50%;
-      right: 5px;
-      transform: translateY(-50%);
-      transition: transform 0.3s ease;
-    }
+    
   
-    .learn:hover .arrow-icon {
-      transform: translateY(-50%) rotate(-45deg);
-    }
+   
   
     .intoEnterprise {
       width:auto;
       height: auto;
       margin: 0 auto;
-      margin-top: 950px;
+      margin-top: 500px;
       background-color: rgb(246, 241, 236);
       display: flex;
       flex-direction: row;
@@ -938,9 +931,9 @@
   
     .custom-container {
       display: flex;
-      flex-direction: column; /* Change flex-direction to column */
-      justify-content: center; /* Horizontally center the content */
-      align-items: center; /* Vertically center the content */
+      flex-direction: column; 
+      justify-content: center; 
+      align-items: center; 
       margin-top: 100px;
       padding: 20px;
       width: auto;
@@ -972,6 +965,8 @@
     }
 
 }
+
+
 
 @media only screen
   and (min-width: 1370px)
@@ -1028,15 +1023,15 @@
   
     .item-row {
       display: flex;
-      flex-wrap: wrap; /* Allow items to wrap */
+      flex-wrap: wrap;  
       justify-content: center;
       gap: 40px;
       margin-top: 20px;
     }
   
     .item {
-      flex: 1; /* Take up equal space */
-      max-width: calc(25% - 20px); /* Adjust max width for responsiveness */
+      flex: 1;  
+      max-width: calc(25% - 20px); 
       box-shadow: 0 0 10px #2b2a2a;
       text-align: center;
       color: black;
@@ -1060,7 +1055,7 @@
     }
   
     .learn span {
-      margin-right: 10px; /* Add margin-right to create space between text and icon */
+      margin-right: 10px;  
     }
   
     .learn:hover {
@@ -1070,7 +1065,7 @@
     }
   
     .arrow-icon {
-      font-size: 24px; /* Adjust the size as needed */
+      font-size: 24px; 
       position: absolute;
       top: 50%;
       right: 5px;
@@ -1104,9 +1099,9 @@
   
     .custom-container {
       display: flex;
-      flex-direction: column; /* Change flex-direction to column */
-      justify-content: center; /* Horizontally center the content */
-      align-items: center; /* Vertically center the content */
+      flex-direction: column;  
+      justify-content: center; 
+      align-items: center; 
       margin-top: 100px;
       padding: 20px;
       width: auto;

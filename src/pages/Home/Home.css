@@ -334,10 +334,7 @@ h4.testimonial__text {
         height: auto;
         line-height: 22px;
     }
-    .col-md-6{
-        display: flex;
-        justify-content: center;
-    }
+
 
 }
 @media only screen and (min-width:992px) and (max-width: 1199px) {
