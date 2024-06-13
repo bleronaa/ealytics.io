@@ -87,7 +87,7 @@ const AccountingSolutions = () => {
   </div>
 </section>
 
-  <div className="cards-container">
+  {/* <div className="cards-container">
     <div className="cards">
       <h1 className="names">Basic</h1>
       <h1 className=" month-price">$249<span>/month</span></h1>
@@ -113,12 +113,11 @@ const AccountingSolutions = () => {
       <button className="buybtn" type="button">Contact for More</button>
     </Link>
       
-    </div>
+    </div> */}
   
   {/* Second Card */}
 
-  <div className="cards">
-      {/* <p className="text-blk">Penatibus massa diam.</p> */}
+  {/* <div className="cards">
       <h1 className="names">Basic</h1>
       <h1 className=" month-price">$249<span>/month</span></h1>
       <div className="card-description">
@@ -144,11 +143,10 @@ const AccountingSolutions = () => {
       <button className="buybtn" type="button">Contact for More</button>
     </Link>
       
-    </div>
+    </div> */}
   {/* Third Card */}
 
-  <div className="cards">
-      {/* <p className="text-blk">Penatibus massa diam.</p> */}
+  {/* <div className="cards">
       <h1 className="names">Basic</h1>
       <h1 className=" month-price">$249<span>/month</span></h1>
       <div className="card-description">
@@ -175,7 +173,7 @@ const AccountingSolutions = () => {
     </Link>
       
     </div>
-  </div>
+  </div> */}
 
 
 

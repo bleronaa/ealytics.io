@@ -342,7 +342,7 @@
     .box-container{
         width:auto;
         height:auto;
-        margin-top:370px;
+        margin-top:170px;
         margin-left: 0px;
     }
     .box-container h2{
@@ -409,7 +409,7 @@
     .box-container{
         width:auto;
         height:auto;
-        margin-top:130px;
+        margin-top:30px;
         margin-left: 0px;
     }
     .box-container h2{
@@ -417,7 +417,7 @@
         font-size: 25px;
     }
     .card-container h2{
-        margin-top: 390px;
+        margin-top: 90px;
     }
     .title{
         text-align: center;
@@ -478,7 +478,7 @@
     .box-container {
         width: auto;
         height: auto;
-        margin-top: 290px;
+        margin-top: 190px;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -491,7 +491,7 @@
 
     .title {
         text-align: center;
-        margin-top: 270px;
+        margin-top: 0px;
     }
 
     .card-container {

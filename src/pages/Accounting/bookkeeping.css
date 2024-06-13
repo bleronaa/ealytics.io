@@ -70,7 +70,10 @@
     .bookkeepingh1 {
         font-size: 30px;
     }
-  
+    .service{
+        margin-left: auto;
+        margin-right: auto;
+    }
     
     .col-md-4 {
         width: 100%;
@@ -80,6 +83,7 @@
         width: auto;
         height: auto;
         text-align: center;
+        padding: 15px;
     }
 
     .service__meta {
@@ -149,13 +153,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: auto;
+        margin-right: auto;
 
     }
     .service{
-        background-color: pink;
+        /* background-color: pink; */
         max-width:319px;
         height:auto;
-        margin-left: 50px;
+        margin-left: auto;
         margin-right: auto;
     }
     

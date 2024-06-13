@@ -1,20 +1,20 @@
 /* Footer.css */
 
 .footer {
-    background-color: black; /* Dark background color */
-    color: #fff; /* Text color */
-    padding: 20px 0; /* Padding around content */
-    height: 350px; /* Set height to 350px */
+    background-color: black; 
+    color: #fff;
+    padding: 20px 0; 
+    height: 350px; 
     margin-top: 60px;
     width:auto;
   }
   
   .text-center h4 {
-    margin-bottom: 15px; /* Spacing below headings */
+    margin-bottom: 15px; 
   }
   
   .column {
-    width: 33.33%; /* Set width for each column */
+    width: 33.33%;
     display: inline-block;
     vertical-align: top;
     font-size: 18px;
@@ -22,20 +22,20 @@
   }
   
   .column .content {
-    margin-bottom: 15px; /* Spacing below each section */
+    margin-bottom: 15px; 
   }
   
   .column .content p {
-    margin-bottom: 19px; /* Spacing between paragraphs */
+    margin-bottom: 19px; 
   }
   
   .column .content a {
-    color: #fff; /* Link text color */
-    text-decoration: none; /* Remove underline from links */
+    color: #fff; 
+    text-decoration: none; 
   }
   
   .column .content a:hover {
-    color: #008000; /* Link text color on hover */
+    color: #008000; 
   }
  .connected a {
     font-size: 30px;
